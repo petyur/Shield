@@ -1,0 +1,71 @@
+body
+{
+	min-height: 400px;
+	max-height: 1200px;
+	background-repeat: repeat;
+	background-position: left top;
+	padding-top: 6px;
+	background-origin: content-box;
+	background-image: url(wall.gif);
+	background-color: #CCCCCC;
+	height: auto;
+	top: 0px;
+	padding-bottom: 6px;
+}
+
+.logo
+{
+	border-width: 2px;
+	border-color: #E3E3E3 #BABABA #616161;
+	border-radius: 7px;
+	background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(205,205,205,1.00)),color-stop( 24.87% , rgba(172,172,172,1.00)),color-stop( 73.58% , rgba(142,142,142,1.00)),color-stop( 100% , rgba(116,116,116,1.00)));
+	background-image: -webkit-linear-gradient(270deg,rgba(205,205,205,1.00) 0%,rgba(172,172,172,1.00) 24.87%,rgba(142,142,142,1.00) 73.58%,rgba(116,116,116,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(205,205,205,1.00) 0%,rgba(172,172,172,1.00) 24.87%,rgba(142,142,142,1.00) 73.58%,rgba(116,116,116,1.00) 100%);
+	text-align: inherit;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: #123860;
+	text-shadow: 1px 1px 10px #FFFFFF;
+	font-size: 60px;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	padding-left: 40px;
+	padding-right: 40px;
+	-webkit-box-shadow: 1px 1px 17px 2px #333333;
+	box-shadow: 1px 1px 17px 2px #333333;
+}
+
+.button
+{
+	background-color: #999;
+	border-width: 2px;
+	border-color: #E3E3E3 #BABABA #616161;
+	border-radius: 7px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(187,187,187,1.00)),color-stop( 100% , rgba(127,127,127,1.00)));
+	background-image: -webkit-linear-gradient(270deg,rgba(187,187,187,1.00) 0%,rgba(127,127,127,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(187,187,187,1.00) 0%,rgba(127,127,127,1.00) 100%);
+	text-shadow: 3px 2px 8px #000033;
+	font-size: 40px;
+	height: 70px;
+	text-align: center;
+	-webkit-box-shadow: 1px 1px 17px 2px #333333;
+	box-shadow: 1px 1px 17px 2px #333333;
+}
+
+.spaces
+{
+	height: 5px;
+}
+
+footer
+{
+	position:fixed;
+	vertical-align:bottom;
+}
+
+.buttons
+{
+	margin-top: -25px;
+}

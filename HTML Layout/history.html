@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+
+<script language="javascript">
+
+var width_coof = 1.0;
+var hight_coof = 1.0;
+
+function init_vars()
+{
+	width_coof = document.body.offsetWidth/800;
+	hight_coof = document.body.offsetHeight/500; 
+}
+
+function get_btn_hight()
+{
+	return hight_coof*30;
+}
+
+function get_btn_width()
+{
+	return width_coof*60;
+}
+
+</script>
+
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="appstyles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+</style>
+</head>
+
+<body>
+
+	<body onLoad="init_vars();">
+  <table align="center" >
+		<tr>
+            <td colspan="3" width="100%" align="center"><div class="logo"><img src="swlogo.gif" width="444" height="129"  alt="security wizard"/></div></td>
+        </tr>
+    	<tr>
+      		<td width="30%">&nbsp;</td><var></var>
+            <td width="40%">&nbsp;</td>
+          	<td width="30%">&nbsp;</td>
+    	</tr>
+        <tr>
+      		<td>&nbsp;</td>
+            <td><div class="button"><a href="runtest.html"> Run Test </a></div></td>
+   		  	<td>&nbsp;</td>
+    	</tr>
+    	<tr>
+      		<td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+    	</tr>
+    	<tr>
+			<td>&nbsp;</td>
+      		<td><div class="button"><a href="compare.html"> Compare </a></div></td>
+    		<td>&nbsp;</td>
+        </tr>
+    	<tr>
+      		<td>&nbsp;</td>
+            <td>&nbsp;</td>
+    		<td>&nbsp;</td>
+        </tr>
+    	<tr>
+      		<td>&nbsp;</td>
+            <td><div class="button"><a href="history.html"> History </a></div></td>
+            <td>&nbsp;</td>
+    	</tr>
+    	<tr>
+      		<td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+    	</tr>
+    	<tr>
+      		<td>&nbsp;</td>
+            <td><div class="button"><a href="faq.html"> FAQ </a></div></td>
+            <td>&nbsp;</td>
+            
+    	</tr>
+  </table>
+
+</body>
+</html>
